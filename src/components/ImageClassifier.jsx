@@ -25,11 +25,12 @@ function ImageClassifier() {
     };
 
     const modelEndpoints = {
-        EfficientNet: "http://47.129.0.222:8000/predict_efficientnet/",
-        CNN: "http://47.129.0.222:8000/predict_cnn/",
-        MobileNet: "http://47.129.0.222:8000/predict_mobilenet/",
-        NASNet: "http://47.129.0.222:8000/predict_nasnet/",
+        EfficientNet: "https://47.129.0.222:8000/predict_efficientnet/",
+        CNN: "https://47.129.0.222:8000/predict_cnn/",
+        MobileNet: "https://47.129.0.222:8000/predict_mobilenet/",
+        NASNet: "https://47.129.0.222:8000/predict_nasnet/",
     };
+    
 
     const handleFileChange = (event) => {
         const selectedFile = event.target.files[0];
